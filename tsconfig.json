@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "diagnostics": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "dist/",
+    "pretty": true,
+    "removeComments": true,
+    "strict": true,
+    "declaration": true,
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext",
+      "es7"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "isolatedModules": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "pages/post/[id].js"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
